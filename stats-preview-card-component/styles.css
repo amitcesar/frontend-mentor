@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 * {
 border: 0;
 margin: 0;
@@ -6,10 +8,34 @@ box-sizing: border-box;
 
 body {
   background-color: hsl(233, 47%, 7%);
-  color: #fff;
+  color: hsl(0, 0%, 100%);
+  padding: 4em 1.5em;
+  text-align: center;
+  font-size: 15px;
+
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+ 
 }
 
 
-.card-container {
+
+.container  {
   background-color: hsl(244, 38%, 16%);
+  max-width: 700px;
+  border-radius: 5px
+}
+
+
+ .container img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  max-width: 450px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
 }
