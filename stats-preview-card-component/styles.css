@@ -21,7 +21,13 @@ body {
  
 }
 
+.container img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+ 
 
+}
 
 .container  {
   background-color: hsl(244, 38%, 16%);
@@ -29,13 +35,3 @@ body {
   border-radius: 5px
 }
 
-
- .container img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-  max-width: 450px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  
-}
