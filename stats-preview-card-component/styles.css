@@ -13,31 +13,10 @@ body {
   text-align: center;
   font-size: 15px;
 
-
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
- 
-}
-
-
-header {
-  background: hsl(277, 64%, 61%);
-  opacity: 0.5;
-  overflow: hidden;
-}
-
-
-
-
-.container img {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    
-    display: block;
-    width: 100%;
-    opacity: 0.5;
 }
 
 .container  {
@@ -45,4 +24,27 @@ header {
   max-width: 700px;
   border-radius: 5px
 }
+
+.container header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+  background: hsl(277, 64%, 61%);
+  overflow: hidden;
+ /* contrast(125%) brightness(55%) */
+  filter: contrast(125%) brightness(55%);
+}
+
+
+.container img {
+ 
+   
+  opacity: 0.5;
+  width: 100%;
+  
+  display: block;
+  object-fit: cover;
+}
+
+
 
