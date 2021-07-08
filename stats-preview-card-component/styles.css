@@ -9,12 +9,10 @@ box-sizing: border-box;
 body {
   background-color: hsl(233, 47%, 7%);
   color: #fff;
-  padding: 4em 1.5em;
- text-align: center;
+  text-align: center;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
 
-  
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
@@ -25,12 +23,16 @@ body {
   background-color: hsl(244, 38%, 16%);
   max-width: 700px;
   min-width: 370px;
+  border-radius: 5px;
+
+  margin-top: 2em;
 }
 
 .container header {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background: hsl(277, 64%, 61%);
+ 
   overflow: hidden;
   filter:  brightness(0.6) saturate(1.6) contrast(1.2) ;
 }
@@ -50,19 +52,46 @@ body {
   font-size: 1.8rem;
 }
 
-.container h2,
+.container h2 {
+ padding: 1em 0.5em 0.5em 0.5em;
+}
 .container .titles-subtitle {
-  padding: 1em 1em;
-  border: 1px solid hsl(277, 64%, 61%);
-
+  line-height: 1.5;
+  padding: 0.5em;
 }
 
-.container .titles-subtitle {
+.container .titles {
   width: 300px;
   margin: 0 auto;
 }
 
-.titles {
-  width: 350px;
- margin: 0 auto;
+.container .titles-subtitle {
+  width: 270px;
+  margin: 0 auto;
+
+  color: hsla(0, 0%, 100%, 0.6);
+
+  padding-bottom: 1em;
+ 
+}
+
+.content-container {
+  padding: 1em 0.5em;
+}
+
+.content-container p {
+  font-weight: normal;
+  font-size: 0.7rem;
+  font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.6);
+  padding: 0.5em;
+ 
+}
+.content-container h3 {
+  font-size: 1.4rem;
+}
+
+.titles mark {
+  color: hsl(277, 64%, 61%);
+  background: none;
 }
