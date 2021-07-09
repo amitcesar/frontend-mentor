@@ -97,13 +97,11 @@ body {
 }
 
 
-/* desk  1440px*/
+
 @media only screen and (min-width:  961px) {
 body {
-
-  height: 800px;
+  height: 900px;
   text-align: left; 
-  
 }
 
 .container {
@@ -122,27 +120,29 @@ body {
 }
 
 .container .titles h2 {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   
  }
 
  .container .titles-subtitle {
-  width: 362px; /* 360px , pausa, qnd voltar revisar as widths e pesquisar como centrarlizar o conteienr*/
+  width: 81%;
   margin: 0 auto;
-
 
 }
 
 .wrapper   {
-  display: flex;
-  justify-content: space-evenly;
+  margin-top: 2em;
+  text-align: center;
 
- 
+ display: flex;
 }
 
+
 .content-container {
-  margin-top: 2em;
+
+
+  margin: 0 auto;
 }
 
 
