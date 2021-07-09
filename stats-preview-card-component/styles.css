@@ -111,6 +111,7 @@ body {
 
 .container header {
   float: right;
+  border-radius: 5px;
 }
 
 .container .titles {
@@ -128,20 +129,16 @@ body {
  .container .titles-subtitle {
   width: 81%;
   margin: 0 auto;
-
 }
 
 .wrapper   {
   margin-top: 2em;
   text-align: center;
 
- display: flex;
+  display: flex;
 }
 
-
 .content-container {
-
-
   margin: 0 auto;
 }
 
