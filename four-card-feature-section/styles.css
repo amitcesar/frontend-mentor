@@ -11,27 +11,49 @@ body {
   font-family: 'Poppins', sans-serif;
   color: hsl(229, 6%, 66%);
 
-  
+
 }
 
-.header {
-  text-align: center;
-  padding: 1em;
+.header{  
+
   margin-top: 2em;
+  text-align: center;
 }
+
 
 .header .main-title {
-  font-weight: 200;
-}
-.header h2 {
-  color: hsl(234, 12%, 34%); /* Very Dark Blue */
+  font-weight: 200; 
 }
 
+.header h2,
+.card h3 {
+  color: hsl(234, 12%, 34%); 
+}
+
+
 .header p {
-  padding: 1em;
-  width: 350px;
+ 
+  padding: 0.5em;
+
+  width: 330px;
   margin: 0 auto;
 }
+
+ 
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid lightgray;
+  margin-top: 2em;
+  width: 350px;
+}
+
+
+
 
 
 
