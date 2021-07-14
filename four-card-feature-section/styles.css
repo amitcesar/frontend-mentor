@@ -10,6 +10,9 @@ body {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
   color: hsl(229, 6%, 66%); /* Grayish Blue */
+
+  background: hsl(0, 0%, 98%);
+
 }
 
 .header{  
@@ -40,13 +43,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
+ 
 }
 
 .card {
-
   margin-top: 1.5em; 
-  
   padding: 1.5em;
   width: 295px;
   border-radius: 5px;
@@ -86,4 +88,33 @@ body {
 }
 .blue {
   border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+/* Tablets */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  body {
+    background-color: rgb(228, 228, 228); 
+  }
+  
+  .row {
+    border: 1px solid purple;
+    display: flex;
+ 
+  }
+  .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 720px;
+  border: 1px solid red;
+  }
+ 
+ 
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; 
+  }
 }
