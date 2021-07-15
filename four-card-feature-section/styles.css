@@ -44,7 +44,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
 }
 
 .card {
@@ -69,12 +68,12 @@ body {
  
   font-size: 0.810rem;
 }
-.card:first-of-type {
-  margin-top: 4em;
- 
-}
-.card:last-of-type {
+
+.cards-container .blue {
   margin-bottom: 4em;
+}
+.cards-container .cyan {
+  margin-top: 4em;
 }
 
 .cyan {
@@ -96,20 +95,8 @@ body {
     background-color: rgb(228, 228, 228); 
   }
   
-  .row {
-    border: 1px solid purple;
-    display: flex;
- 
-  }
-  .column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 720px;
-  border: 1px solid red;
-  }
- 
- 
+  
+
 }
 
 /* Desktop Styles */
@@ -117,4 +104,35 @@ body {
   body {
     background-color: #B2D6FF; 
   }
+
+  .row {
+    display: flex;
+    align-items: center;
+  
+  }
+  .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  }
+ 
+.card {
+  margin: 0.5em;
+}
+
+.cards-container {
+  height: 500px;
+  flex-direction: column;
+  align-items:  center;
+  justify-content: center;
+  border: 1px solid blue;
+}
+.cards-container .blue {
+  /* Reset Card Blue */
+  margin-bottom: 1em;
+}
+.cards-container .cyan {
+  margin-top: 0em;
+}
 }
