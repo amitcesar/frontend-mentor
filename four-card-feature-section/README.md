@@ -19,10 +19,10 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### My Resolution :
 
-#### Desktop
+### Desktop
 
-  <img alt="my-resolution" src="design/four-card-featureDemonstration.png" width="100%">
+  <img alt="desktop-work" src="design/four-card-featureDemonstration.png" width="100%">
 
-#### Desktop
+### Mobile
 
-  <img alt="my-resolution" src="design/four-card-mobile-design.png" >
+  <img alt="mobile-work" src="design/four-card-mobile-design.png" >
