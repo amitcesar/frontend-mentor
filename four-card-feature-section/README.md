@@ -25,4 +25,4 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Mobile
 
-  <img alt="mobile-work" src="design/four-card-mobile-design.png" >
+  <img alt="mobile-work" src="design/four-card-mobile-design-resolutionn.png" >
