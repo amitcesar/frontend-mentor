@@ -10,7 +10,7 @@ Your challenge is to build out this feature section and get it looking as close 
 
 ### Mobile
 
-<img alt="mobile-design" src="design/mobile-design.jpg" width="50%">
+<img alt="mobile-design" src="design/mobile-design.jpg" >
 
 ### My Resolution :
 
